@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap");
+.sect_main {
+  background: #253897;
+  color: #fff;
+  float: right;
+  width: 70%;
+}
+.sect_main .sect_post {
+  padding: 6px;
+}
+.sect_main .sect_post article {
+  padding: 20px;
+}
+.sect_main .sect_post article .title {
+  margin-bottom: 20px;
+}
+.sect_main .sect_post article p {
+  margin-bottom: 15px;
+  line-height: 27px;
+}
+
+footer {
+  background: #000;
+  text-align: center;
+  padding: 15px 0;
+  color: #fff;
+  float: right;
+  margin: auto;
+  clear: both;
+  width: 70%;
+}
+
+aside {
+  background: #257197;
+  padding: 20px;
+  float: left;
+  width: 30%;
+}
+aside .div_widget {
+  padding: 0px 20px 0px 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+aside .div_widget .title {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+aside .div_widget ul {
+  margin: 0px 0px 0px 30px;
+}
+aside .div_widget ul li button {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  background: none;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+}
+aside .div_widget ul li botton:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  animation: FadeIn 1s ease-in-out 0.5s 1 normal forwards;
+  background-image: url("/assets/texture.jpg");
+  background-size: 100%;
+  font-size: 16px;
+}
+body .div_main {
+  margin: 20px auto;
+  overflow: hidden;
+  width: 90%;
+}
+body .div_main header {
+  text-align: center;
+  background: #192670;
+  padding: 8px;
+  color: #fff;
+  font-size: 20px;
+}
+body .div_main .btn_Begin {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background: #972538;
+  padding: 15px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+body .div_main .btn_Begin:hover {
+  cursor: pointer;
+  background: #5c1924;
+}/*# sourceMappingURL=style.css.map */

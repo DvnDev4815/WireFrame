@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap')
+@import articulos
+@import footer
+@import aside
+
+@keyframes FadeIn
+    0%
+        opacity: 0
+    100%
+        opacity: 1
+        
+    
+$PrimaryColor: #192670
+
+*
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+    padding: 0
+    margin: 0
+
+body
+    animation: FadeIn 1s ease-in-out 0.5s 1 normal forwards
+
+    background-image: url("/assets/texture.jpg")
+    background-size: 100%
+    
+    font-size: 16px
+
+    .div_main
+        margin: 20px auto
+        overflow: hidden
+        width: 90%
+
+        header
+            text-align: center
+            background: $PrimaryColor
+            padding: 8px
+            color: #fff
+
+            font-size: 20px 
+
+        .btn_Begin
+            position: fixed
+            bottom: 50px
+            right: 50px
+
+            background: #972538
+            padding: 15px
+            color: #fff
+            border: none
+
+            border-radius: 10px
+
+        .btn_Begin:hover
+            cursor: pointer
+            background: #5c1924
