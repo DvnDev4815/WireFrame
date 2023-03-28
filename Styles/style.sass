@@ -10,7 +10,9 @@
         opacity: 1
         
     
-$PrimaryColor: #192670
+$PrimaryColor: #91aa9d
+$ColorBG: #193441
+$ColorFont: #000
 
 *
     -webkit-box-sizing: border-box
@@ -23,7 +25,7 @@ body
     animation: FadeIn 1s ease-in-out 0.5s 1 normal forwards
     font-family: 'Edu NSW ACT Foundation'
 
-    background-image: linear-gradient(to bottom right, #004127, #6AAD92)
+    background: $ColorBG
     background-size: 100%
     font-size: 16px
 
@@ -36,9 +38,11 @@ body
             text-align: center
             background: $PrimaryColor
             padding: 8px
-            color: #fff
 
-            font-size: 20px 
+            text-decoration: underline
+            color: $ColorFont
+            font-size: 20px
+            font-weight: bold
 
         .btn_Begin
             position: fixed

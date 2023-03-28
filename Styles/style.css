@@ -5,6 +5,7 @@
   color: #fff;
   float: right;
   width: 70%;
+  margin-bottom: 20px;
 }
 .sect_main .sect_post {
   padding: 6px;
@@ -58,8 +59,8 @@ footer {
 }
 
 aside {
-  background: #257197;
-  border: 5px solid #437d9b;
+  background: #3e606f;
+  /* border: 5px solid #437d9b */
   padding: 20px;
   float: left;
   width: 30%;
@@ -67,7 +68,7 @@ aside {
 aside .div_widget {
   padding: 0px 20px 0px 20px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #fcfff5;
 }
 aside .div_widget .title {
   border-bottom: 1px solid #fff;
@@ -80,8 +81,8 @@ aside .div_widget ul {
 aside .div_widget ul li button {
   font-family: "Edu NSW ACT Foundation", cursive;
   background: none;
-  color: #fff;
   border: none;
+  color: #fcfff5;
   font-size: 20px;
 }
 aside .div_widget ul li botton:hover {
@@ -106,7 +107,7 @@ aside .div_widget ul li botton:hover {
 body {
   animation: FadeIn 1s ease-in-out 0.5s 1 normal forwards;
   font-family: "Edu NSW ACT Foundation";
-  background-image: linear-gradient(to bottom right, #004127, #6AAD92);
+  background: #193441;
   background-size: 100%;
   font-size: 16px;
 }
@@ -117,10 +118,12 @@ body .div_main {
 }
 body .div_main header {
   text-align: center;
-  background: #192670;
+  background: #91aa9d;
   padding: 8px;
-  color: #fff;
+  text-decoration: underline;
+  color: #000;
   font-size: 20px;
+  font-weight: bold;
 }
 body .div_main .btn_Begin {
   position: fixed;
