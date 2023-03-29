@@ -1,12 +1,15 @@
-$WidgetColor: #3e606f
-$ColorFont: #fcfff5
+$WidgetColor: #a4ac96
+$ColorFont: #000
 
 aside
     background: $WidgetColor
-    /* border: 5px solid #437d9b */
     padding: 20px
-    float: left
-    width: 30%
+    width: 26%
+
+    border: #fff 1px solid
+    border-radius: 5px
+    position: fixed
+    left: 66px
 
     .div_widget
         padding: 0px 20px 0px 20px
@@ -14,25 +17,36 @@ aside
         color: $ColorFont
 
         .title
-            border-bottom: 1px solid #fff
-            margin-bottom: 10px
             text-align: center
 
-        ul
-            margin: 0px 0px 0px 30px
+        hr
+            background: $ColorFont
+            margin-bottom: 10px
+            color: $ColorFont
 
-            // border: 1px solid #fff
+        ul
+            text-align: center
+            list-style: none
 
             li
+                margin-bottom: 5px
+
                 button
                     font-family: 'Edu NSW ACT Foundation', cursive
                     background: none    
                     border: none
                     color: $ColorFont
 
-                    // border: 1px solid #fff
                     font-size: 20px
 
-                botton:hover
+                button:hover
                     cursor: pointer
                     text-decoration: underline
+
+    hr
+        background: $ColorFont
+        color: $ColorFont
+
+@media screen and (max-width: 768px)
+    aside
+        left: 0px
